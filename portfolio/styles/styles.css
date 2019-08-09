@@ -1,0 +1,54 @@
+body{
+  background-color: #5Cdb95;
+}
+
+h1,h4{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+color: #05359b;
+}
+
+h2{
+  color: #edf5e1;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #379683;
+}
+
+img{
+  border-color: #edf5e1;
+  border-style: solid;
+  border-width: 2px;
+}
+
+p,footer{
+font-family: 'Courier New', Courier, monospace;
+color:#edf5e1;
+}
+
+.footer{
+  color : black;
+  font-style: italic;
+}
+
+.project-links{
+  color : black;
+}
+
+a{
+  color:#05359b;
+}
+a:hover{
+  color: #8ee4af;
+}
+
+a:visited{
+  color:red;
+}
+

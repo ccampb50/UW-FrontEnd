@@ -37,13 +37,11 @@ p.important{
   width:75%;
 }
 
-
 img{
   border:dotted;
   border-color: yellow;
   border-width: 3px;
 }
-
 
 .purple-text{
   color : rgba(120,24,120,0.5);

@@ -1,0 +1,54 @@
+h1{
+  color: red;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+p{
+  color: red;
+}
+body{
+  background-color: dodgerblue;
+}
+.purple-text{
+  color : rgba(120,24,120,0.5);
+}
+.important{
+  font-weight: bold;
+}
+#lead-paragraph{
+  color: purple;
+  font-weight: bold;
+}
+
+
+.important:hover{
+  background-color:#0000FF;
+}
+a[href="http://storm.wnba.com"]{
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="https://imagecomics.com"]{
+  background-color: yellow;
+}
+
+p.important{
+  width:75%;
+}
+
+
+img{
+  border:dotted;
+  border-color: yellow;
+  border-width: 3px;
+}
+
+
+.purple-text{
+  color : rgba(120,24,120,0.5);
+}
+/*
+p {color : blue;}
+p {color : orange;}
+*/

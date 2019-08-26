@@ -49,4 +49,25 @@ img{
 /*
 p {color : blue;}
 p {color : orange;}
+
+h1{
+  position : static
+}
+
+h1{
+  position : relative;
+  right : 50px;
+}
+
+h1{
+  position : absolute;
+  left: 100px;
+  top: 200px;
+}
 */
+
+h1{
+  position: fixed;
+  left: 100px;
+  top: 220px;
+}

@@ -1,0 +1,147 @@
+
+body{
+  margin: 0%;
+}
+
+main{
+  position: relative;
+  left: 15%;
+  width: 45%;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+  background-color: #2C9AB7;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: #2C9AB7;
+  padding-bottom: 2rem;
+}
+
+.header-links{
+  position: relative;
+  left: 15%;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  font-size: 2.5rem;
+  color: white;
+  position: relative;
+  left: 15%;
+  margin-bottom: 0%;
+}
+
+.subtitle{
+  font-style: italic;
+  font-size: 1.25rem;
+  color: white;
+  position: relative;
+  left: 15%;
+  padding: 0px;
+  margin: 0%;
+}
+
+.navbar{
+  width: 100%;
+  background: #EBEBEB;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+a{
+  color: #201D1D;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+article {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.side-bar{
+  float: right;
+  position: relative;
+  right: 15%;
+  width: 15%;
+}
+
+.opening{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #2C9AB7;
+}
+
+p{
+  font-size: 0.75rem;
+}
+
+.quote-text{
+  font-size: 20px;
+  color:#40B9CB;
+}
+
+.jeremy{
+  font-style: italic;
+}
+
+.side-bar-link{
+  color:#40B9CB;
+  margin-top: 1rem;
+  margin-left: -15%;
+}
+
+.side-bar-image{
+  width : 130%;
+  margin-left: -30%;
+}
+
+figcaption{
+  margin-left:-30%;
+  font-size : 0.75rem;
+}
+
+.side-bar-header{
+  margin-top: 2rem;
+}
+
+footer{
+  clear: both;
+  height: 25%;
+  width:100%;
+  background-color: #393939;
+}
+
+.cat-logo{
+  padding-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  margin-top:0px;
+}
+
+.nav-footer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-links{
+position: relative;
+left: 45%;
+color: white;
+text-decoration: none;
+font-size: 0.75rem;
+font-weight: bold;
+}

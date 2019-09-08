@@ -94,7 +94,6 @@ p{
 .side-bar-link{
   color:#40B9CB;
   margin-top: 1rem;
-  margin-left: -15%;
 }
 
 .side-bar-image{
@@ -139,9 +138,27 @@ footer p{
 
 .footer-links{
 position: relative;
-left: 45%;
+left: 40%;
 color: white;
 text-decoration: none;
 font-size: 0.75rem;
 font-weight: bold;
+}
+
+.banner-about-us{
+  margin-bottom: -0.5rem;
+  padding-bottom: 0%;
+  border-bottom: solid, 0.5rem, #EBEBEB;
+  height: 15%;
+  z-index: -1;
+}
+
+.about-title{
+  z-index: 0;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  color: white;
+  font-size: 200%;
+
 }

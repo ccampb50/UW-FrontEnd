@@ -3,15 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title> About Me </title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Chilanka|Roboto&display=swap');
+      body{
+        background: lightblue;
+      }
+      .name{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 900;
+        font-size: 4rem;
+      }
+
+      h3,h3,h2,p{
+        font-family: 'Chilanka', cursive; 
+      }
+      
+      .contatiner{
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
   </head>
   <body>
-    <h1>Craig Campbell</h1>
+    <h1 class="name">Craig Campbell</h1>
     <p>
     </p>
     <nav>
-      <h4>Other Pages of Mine</h4>
+      <h4>Other Interesting Content!</h4>
       <ul>
-        <li><a href="index.html"> About Me!</a></li>
         <li><a href="projects.html"> Projects </a></li> 
       </ul>
     </nav>
@@ -28,13 +48,16 @@
           Univsertiy in Ypsilanti Michigan. Some of my favorite things to do are 
           watching tv and movies, playing and listening to music, and hanging out with
           people. I also like to play all sorts of video games!
-        </p>
-        <img alt="A picture of me at graduation" src="images/craig-campbell-grad-photo.jpg">
+        </p>    
       </section>
       <section>
-        <h2>I absolutely adore cats here is a picture of mine!</h2>
-        <img alt="Craig's black and white cat Nico" src="images/nico-craig-cat.jpg"
-        height="250" width="250">
+        <div class="contatiner">
+        <img alt="A picture of me at graduation" src="images/craig-campbell-grad-photo.jpg">
+        <div>
+          <h2>I absolutely adore cats here is a picture of mine!</h2>
+          <img alt="Craig's black and white cat Nico" src="images/nico-craig-cat.jpg" height="500" width="500">
+        </div>
+        </div>
       </section>
       <footer>Written By Craig C in 2019</footer>
     </article>

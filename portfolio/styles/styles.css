@@ -56,3 +56,22 @@ a:visited{
   display: flex;
   flex-direction: column;
 }
+
+
+h1:hover{
+  color: red;
+}
+
+h1{
+  transition-property: color;
+  transition-duration: 2s;
+}
+
+article section img:hover{
+  border-color: orange;
+}
+
+img{
+  transition: border-color 2s ease-in 0s;
+}
+

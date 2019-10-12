@@ -1,0 +1,60 @@
+
+.header-text{
+  
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header-image{
+  background: black;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.nav-box{
+  width: 33%;
+  height: 20px;
+  border: 0.3rem solid;
+  text-align:center;
+}
+
+.instructor-image{
+  width: 20%;
+  float: left;
+}
+
+.instructor{
+  height: 15%;
+  display:block;
+}
+
+.contact{
+text-align: center;
+
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.class-box{
+  border: 2px solid;
+}
+
+.signup-box{
+  border: 2px solid;
+}
+
+.class-box > p {
+  margin: 0px 0px 0px 0px;
+  border-left: 2px solid;
+}

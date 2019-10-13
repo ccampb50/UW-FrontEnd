@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Web Forms</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <h1>Pet Adoption Application</h1>
@@ -15,19 +16,63 @@
            <input type="email" name="applicantEmail">
         </label>
     
-        <input type="submit" value="Apply Now!">
+       
     
         <!-- the other syntax -->
         <label for="city">What city are you in?</label>
         <input id="city" type="text" name="applicantCity">
     
         <label>How many pets are in your home?
-            input type="number" name="petCount">
+            <input type="number" name="petCount">
         </label>
-    
+
+        <label>Why do you want to adopt a new pet?
+          <textarea name="applicantReason" rows="4" cols="50">Tell us about yourself!</textarea>
+        </label>
+
         <label>To create an account, enter a password:
            <input type="password" name="accountPW">
         </label>
+
+        <fieldset>
+          <legend>What types of animals are you interested in?</legend>
+          <lable> Dog
+            <input type="checkbox" name="type" value="dog">
+          </lable>
+          <lable> Cat
+            <input type="checkbox" name="type" value="cat">
+          </lable>
+          <lable> Rabbit
+              <input type="checkbox" name="type" value="rabbit">
+          </lable>
+          <lable> Mouse
+              <input type="checkbox" name="type" value="mouse">
+          </lable>
+          <lable> Fish
+              <input type="checkbox" name="type" value="fish">
+          </lable>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interested in adopting a special needs pet?</legend>
+          <lable> Yes
+              <input type="radio" name="special" value="yes">
+            </lable>
+            <lable> No
+              <input type="radio" name="special" value="no">
+            </lable>
+        </fieldset>
+
+        <Label>How many hours a day is someone usually home to accompany pet?
+          <select name="hours">
+            <option value="">Please Select</option>
+            <option value="few">less than 10 hours</option>
+            <option value="some">10 to 16 hours</option>
+            <option value="many">16 or more hours</option>
+          </select>
+        </Label>
+
+        <input type="submit" value="Apply Now!">
     </form>
   </body>
 </html>

@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #111111;
+}
+
+.header-text{
+  font-size: 3rem;
+  text-align: center;
+  color: #03a3df;
+}
+
+p{
+  color: #03a3df;
+}
+
+a{
+  color: #ecb722;
+}
+
+.header-image{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.nav-box{
+  width: 33%;
+  height: 30px;
+  border: 0.3rem solid #1b117f;
+  text-align:center;
+}
+
+.instructor-image{
+  width: 10%;
+  float: left;
+}
+
+.instructor{
+  width: 99%;
+}
+
+.instructor{
+  height: 15%;
+  display:block;
+}
+
+.contact{
+  text-align: center;
+  color: #03a3df;
+}
+
+.main-container{
+  content: "";
+  clear: both;
+  display: table;
+}
+.class-box{
+  width: 66%;
+  height: 8rem;
+}
+
+.signup-box{
+  width: 33%;
+  height: 8rem;
+}
+
+.private-lesson-box{
+  width: 66%;
+  height: 4rem;
+}
+
+.private-lesson-signup-box{
+  width: 33%;
+  height: 4rem;
+}
+
+.private-lesson-box > p {
+  margin: 0px 0px 0px 0px;
+}
+
+.class-box > p {
+  margin: 0px 0px 0px 0px;
+}
+
+.col {
+  float: left;
+  border: 1px solid #1b117f;
+}
+
+.footer-image{
+  width:100%;
+}
